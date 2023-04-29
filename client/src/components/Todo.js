@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import '../styles/Todo.scss';
 import { AiTwotoneDelete } from 'react-icons/ai';
-const Todo = ({ item, deleteItem }) => {
+const Todo = ({ item, deleteItem, updateItem }) => {
     // console.log(item); // {done: false, id: 1, title: "저녁먹기"}
     const [todoItem, setTodoItem] = useState(item);
     const [readOnly, setReadOnly] = useState(true);
@@ -19,6 +19,7 @@ const Todo = ({ item, deleteItem }) => {
     const enterKeyEventHandler = (e) => {
         if (e.key === 'Enter') {
             setReadOnly(true);
+            updateItem(todoItem); //수정 1 - text input에서
         }
     };
 
@@ -38,10 +39,12 @@ const Todo = ({ item, deleteItem }) => {
         // rest: id, title 정보
         const { done, ...rest } = todoItem;
 
-        setTodoItem({
+        const updateItem = {
             done: e.target.checked,
             ...rest,
-        });
+        };
+        setTodoItem(updateItem);
+        updateItem(updateItem); //수정 2 - checkbox input에서 check여부 변경시 수정
     };
 
     return (

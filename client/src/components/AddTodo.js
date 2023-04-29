@@ -30,7 +30,7 @@ const AddTodo = ({ addItem }) => {
                 onChange={(e) => setTodoItem({ title: e.target.value })}
                 onKeyDown={onEnterKeyDown}
             />
-            {todoItem.title.length === 0 && alert('값을 넣어주세요')};
+
             <button onClick={onButtonClick}>
                 <AiOutlinePlus />
             </button>
