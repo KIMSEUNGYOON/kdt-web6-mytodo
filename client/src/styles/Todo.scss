@@ -1,0 +1,16 @@
+$border-bottom: solid 3px rgb(229, 255, 204);
+.Todo {
+    display: flex;
+    justify-content: center;
+
+    input {
+        border-bottom: $border-bottom;
+        text-align: center;
+    }
+    button {
+        background-color: rgb(229, 255, 204);
+    }
+    input[type='checkbox'] {
+        accent-color: rgb(229, 255, 204);
+    }
+}
