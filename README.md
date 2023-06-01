@@ -1,5 +1,6 @@
 #  Todo 프로젝트 
-![bandicam_2023-06-01_17-48-28-040_AdobeExpress (1)](https://github.com/KIMSEUNGYOON/kdt-web6-mytodo/assets/71888374/bb41d15b-dccd-4e7a-a3fc-cdd023789628)
+
+![bandicam_2023-06-01_17-48-28-040_AdobeExpress](https://github.com/KIMSEUNGYOON/kdt-web6-mytodo/assets/71888374/de5796e1-22dd-4c43-ac62-f8800348de00)
 
 
 Live Link : [http://52.62.33.115/](http://52.62.33.115/)
