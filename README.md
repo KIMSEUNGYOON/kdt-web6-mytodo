@@ -19,6 +19,7 @@ Github Repository : https://github.com/KIMSEUNGYOON/kdt-web6-mytodo
 3 .  할일들은 최근 등록순으로 나열 된다.
 
 ### 구동 방법
+```
 git clone https://github.com/KIMSEUNGYOON/kdt-web6-mytodo.git
 
 cd client
@@ -26,9 +27,11 @@ cd client
 npm i
 
 npm start
-
+```
+```
 cd server
 
 npm i 
 
 npm start
+```
